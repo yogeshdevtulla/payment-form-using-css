@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 15px 30px;
+    padding: 10px
+}
+.container{
+    background-color: rgb(241, 240, 241);
+    padding: 10px;
+    border: 1px solid rgb(61, 30, 75);
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(61, 30, 75);
+    margin: 8px;
+    border-radius: 10px;
+}
+fieldset.gender{
+    background-color: white;
+    border: 1px solid rgb(61, 30, 75);
+    border-radius: 10px;
+}
+.heading{
+    width: 40%;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 30%;
+    border: 2px solid rgb(61, 30, 75);
+    border-radius: 50px;
+    
+}
+#heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: underline dashed ;
+    margin: 0%;
+    color: rgb(61, 30, 75);
+}
+#headingpara{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+input[type="submit"]{
+    background-color: rgb(61, 30, 75);
+    color: white;
+    width: 20%; 
+    height: 50px;
+    margin-left:45%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(154, 22, 216);
+
+}
+
+fieldset{
+    border: 3px solid rgb(61, 30, 75);
+}
+
+.gender{
+    accent-color: rgb(61,30,75);
+}
+
